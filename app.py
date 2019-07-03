@@ -29,6 +29,7 @@ def callback():
         sendText(user,'แน่นอนอยู่แล้ว')
     else :
         sendText(user,'พูดใหม่ซิ ฟังไม่ออกเลย')
+        
     return '',200
 
 def sendText(user, text):
